@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+.wrap > h1 {
+    margin: 26px auto;
+}
+#showcase {
+    width: 100vw;
+    height: 400px;
+    margin-top: 10%;
+}
+#showcase img {
+    width: 100%;
+    max-width: 400px;
+}
+#showcase img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+footer {
+    text-align: center;
+}
+#item-link {
+    display: inline-block;
+}
+#item-link:hover {
+    text-decoration: underline;
+}
+#item-title {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 29px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+#nav {
+    text-align: center;
+}
+#nav > button {
+    width: 64px;
+    height: 36px;
+    color: #666;
+    font: bold 16px arial;
+    text-align: center;
+    margin: 5px;
+    background: #f6f6f6;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nav > button:active {
+    background: #dfdfdf;
+    border: solid 2px rgba(0, 0, 0, 0.6);
+    box-shadow: none;
+}
